@@ -1,0 +1,20 @@
+SELECT * FROM `mobilies`;
+
+SELECT * FROM mobilies WHERE price>'13000'OR stock<15;
+
+UPDATE mobilies
+SET stock=stock+5,price=12500
+WHERE model='Narzo 50';
+
+DELETE FROM mobilies WHERE id=2;
+
+SELECT MIN(price) AS lowest_price,
+MAX(price) AS highest_price
+FROM mobilies;
+
+SELECT SUM(stock) AS total_stock
+FROM mobilies;
+
+SELECT* FROM mobilies
+ORDER BY price DESC
+LIMIT 2;
