@@ -1,0 +1,7 @@
+SELECT title,author FROM bokkss UNION SELECT title,author FROM bestsellers;
+
+SELECT * FROM `bokkss` WHERE price>400;
+
+SELECT COUNT(*)AS total_books FROM bokkss;
+
+SELECT title AS "Book Title", author AS "Written By" FROM bokkss;
