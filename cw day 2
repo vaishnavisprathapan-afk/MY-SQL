@@ -1,0 +1,5 @@
+UPDATE booksssss SET price = price + 50, stock = 12 WHERE title = 'Learn SQL';
+
+UPDATE booksssss SET stock = stock - 2 WHERE price > 500;
+
+DELETE FROM booksssss WHERE book_id = 3;
