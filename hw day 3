@@ -1,0 +1,7 @@
+SELECT * FROM bookkkkkks WHERE stock_status = 'In Stock' AND price < 400;
+
+SELECT * FROM bookkkkkks WHERE stock_status = 'Out of Stock' OR price > 700;
+
+SELECT title, price, price * 1.1 AS price_with_gst FROM bookkkkkks;
+
+SELECT title, price, stock_status FROM bookkkkkks ORDER BY price DESC;
