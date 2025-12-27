@@ -1,0 +1,4 @@
+ALTER TABLE groceryshop ADD category VARCHAR(50);
+
+TRUNCATE TABLE groceryshop;
+

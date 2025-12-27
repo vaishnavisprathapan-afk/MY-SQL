@@ -1,0 +1,3 @@
+SELECT * FROM trackers WHERE score > (SELECT AVG(score) FROM trackers);
+
+SELECT name FROM trackers WHERE challenge = (SELECT challenge FROM trackers WHERE name = 'Farah');
