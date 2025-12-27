@@ -1,0 +1,8 @@
+SELECT b.title, bor.name AS borrowed_by FROM bbookkss b LEFT JOIN borrowerss bor ON b.book_id = bor.book_id;
+
+SELECT bor.name, b.title AS borrowed_book FROM borrowerss bor LEFT JOIN bbookkss b ON bor.book_id = b.book_id;
+
+SELECT b.title FROM bbookkss b LEFT JOIN borrowerss bor ON b.book_id = bor.book_id WHERE bor.book_id IS NULL;
+
+SELECT bor.name
+FROM borrowers bor;
