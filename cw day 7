@@ -1,0 +1,7 @@
+SELECT course,COUNT(*)AS total_students FROM studentss GROUP BY course
+
+SELECT course,AVG(score)AS average_score FROM studentss GROUP BY course HAVING AVG(score)>80
+
+SELECT name,score FROM studentss WHERE city IN('Chennai','Mumbai')
+
+SELECT * FROM studentss WHERE bonuspoints IS NULL
