@@ -1,0 +1,7 @@
+SELECT * FROM studentssssss WHERE age > 20;
+
+SELECT * FROM studentssssss WHERE department IN ('Computer Science', 'Physics');
+
+SELECT * FROM studentssssss WHERE grade = 90;
+
+SELECT * FROM studentssssss WHERE grade BETWEEN 70 AND 90;

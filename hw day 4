@@ -1,0 +1,8 @@
+SELECT * FROM bbboookkksss WHERE price > 400;
+
+SELECT * FROM bbboookkksss WHERE genre IN ('History', 'Science', 'Fiction');
+
+
+SELECT * FROM bbboookkksss WHERE title = 'The Great Gatsby';
+
+SELECT * FROM bbboookkksss WHERE author != 'Dan Brown';
